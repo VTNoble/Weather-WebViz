@@ -1,5 +1,7 @@
-.navclass {
-    padding: 10px;
-    background: orange;
-    color: whitesmoke;
+.bodyback {
+    background: whitesmoke;
+}
+
+.contback {
+    background: white
 }

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Comparison: Latitude vs. X</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+
+<body class="bodyback">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink active">
+              <li><a class="dropdown-item" href="01-temp.html">Max Temperature</a></li>
+              <li><a class="dropdown-item" href="02-hum.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="03-cloud.html">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="04-wind.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="05-comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="06-data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container justify-content-center">
+    <div class="row gy-3 mt-2 justify-content-center">
+      <div class="me-3 border contback">
+        <header class="h4 pb-2 text-dark p-3 border-bottom border-secondary">
+          Comparison: Latitude vs. X
+        </header>
+        <div>
+          <p class="fw-light text-secondary">Click any plot to get an in-depth analysis.</p>
+        </div>
+        <div class="row pb-3">
+          <div class="col-lg-6 col-md-12 text-center">
+            <header class="h5 text-secondary pt-2">
+              vs. Max Temperature
+            </header>
+            <a href="../visualizations/01-temp.html">
+              <img src="../assets/images/01_temp_vs_lat.png" alt="Temperature vs Latitude" class="rounded mx-auto d-block">
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-12 text-center">
+            <header class="h5 text-secondary pt-2">
+              vs. Humidity
+            </header>
+            <a href="../visualizations/02-hum.html">
+              <img src="../assets/images/02_hum_vs_lat.png" alt="Humidity vs Latitude" class="rounded mx-auto d-block">
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-12 text-center">
+            <header class="h5 text-secondary pt-2">
+              vs. Cloudiness
+            </header>
+            <a href="../visualizations/03-cloud.html">
+              <img src="../assets/images/03_cloud_vs_lat.png" alt="Cloudiness vs Latitude" class="rounded mx-auto d-block">
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-12 text-center">
+            <header class="h5 text-secondary pt-2">
+              vs. Wind Speed
+            </header>
+            <a href="../visualizations/04-wind.html">
+              <img src="../assets/images/04_wind_vs_lat.png" alt="Wind Speed vs Latitude" class="rounded mx-auto d-block">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
